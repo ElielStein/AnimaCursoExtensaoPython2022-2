@@ -1,21 +1,10 @@
-# Meu primeiro projeto Python!!!
+# input() = entrada de dados, pedir pra usuario digitar
 
-'''
-Em bloco
-'''
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
 
-print("Alo mundo! \n")
+print(f"Seu nome é {nome} e tem {idade} anos")
 
-# Variáveis
+dobro = idade * 2
 
-nome = "Eliel Stein"
-idade = 19
-
-# print("Tenho " +str(idade) +" anos") = 1º jeito
-
-# print(f"Tenho {idade} anos \n") = 2º jeito
-
-print("Me chamo " +nome)
-print("Tenho {}".format(idade) + " anos \n") # = 3º jeito
-
-print("Me chamo {} \nTenho {} anos".format(nome,idade))
+print("O dobro da sua idade é {}".format(dobro))
