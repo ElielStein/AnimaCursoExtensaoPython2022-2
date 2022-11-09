@@ -1,6 +1,6 @@
 numero = 1
 
-while(numero >= 1 and numero <= 10):
+while(numero <= 10):
   print(numero)
   numero+=1 
 
